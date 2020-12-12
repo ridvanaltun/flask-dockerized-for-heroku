@@ -1,0 +1,8 @@
+{
+    "name": "flask-dockerized-for-heroku",
+    "description": "A Flask installation using Docker",
+    "repository": "https://github.com/ridvanaltun/flask-dockerized-for-heroku",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+    "keywords": ["flask", "python", "docker"],
+    "stack": "container"
+  }
