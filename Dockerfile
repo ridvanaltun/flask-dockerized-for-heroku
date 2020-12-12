@@ -6,10 +6,10 @@ ARG VCS_REF
 
 # Environments (This variables can will use with the application as well)
 ENV FLASK_VERSION 1.1.2
-ENV PROJECT_URL https://github.com/ridvanaltun/alpine-flask-docker
+ENV PROJECT_URL https://github.com/ridvanaltun/flask-dockerized-for-heroku
 ENV WEB_SERVER_PORT 5000
 
-# Set Container Metadata (aka. Labels) (see https://microbadger.com/labels)
+# Set Image Metadata (@see https://microbadger.com/labels)
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url=$PROJECT_URL
